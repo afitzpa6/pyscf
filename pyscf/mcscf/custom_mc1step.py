@@ -11,7 +11,7 @@ from pyscf.lib import logger
 sys.path.append(
     "/Users/aaronfitzpatrick/Algorithmiq Dropbox/Aaron Fitzpatrick/Mac/Documents/GitHub"
 )
-from pyscf1.pyscf.mcscf import custom_casci as casci
+from pyscf.mcscf import custom_casci as casci
 from pyscf.mcscf.casci import get_fock, cas_natorb, canonicalize
 from pyscf.mcscf import mc_ao2mo
 from pyscf.mcscf import chkfile
