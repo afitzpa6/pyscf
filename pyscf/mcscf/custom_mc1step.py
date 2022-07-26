@@ -7,10 +7,7 @@ import scipy.linalg
 from pyscf import lib
 from pyscf.lib import logger
 
-# from pyscf.mcscf import casci
-sys.path.append(
-    "/Users/aaronfitzpatrick/Algorithmiq Dropbox/Aaron Fitzpatrick/Mac/Documents/GitHub"
-)
+
 from pyscf.mcscf import custom_casci as casci
 from pyscf.mcscf.casci import get_fock, cas_natorb, canonicalize
 from pyscf.mcscf import mc_ao2mo
